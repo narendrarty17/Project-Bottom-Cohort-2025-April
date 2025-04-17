@@ -1,6 +1,4 @@
 // app/dashboard/page.js
-import MarketCard from '../components/dashboard/MarketCard';
-import PopularStockCard from '../components/dashboard/PopularStockCard'; // Import the new component
 import { FiTrendingUp, FiTrendingDown, FiZap } from 'react-icons/fi';
 import Header from '../components/homepage/Header';
 import Footer from '../components/homepage/Footer';
@@ -26,7 +24,7 @@ export default function DashboardPage() {
   return (
     <>
       <Header />
-  
+      <>This is dashboard page</>
       <Footer />
     </>
   );
