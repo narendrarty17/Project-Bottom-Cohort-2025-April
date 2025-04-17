@@ -8,13 +8,12 @@ import { useAuth } from '../../context/AuthContext'; // <-- Adjust path if neede
 
 export default function Header() {
   // 2. Get user state and logout function
-  const { user, logoutUser } = useAuth();
+  
   console.log("User: ", user);
 
   // 3. handleLogout calls context function
   const handleLogout = () => {
-    logoutUser();
-    // Optional: Add redirect logic here if needed
+    // invoke logout from useContext
   };
 
   return (
@@ -57,27 +56,23 @@ export default function Header() {
       {/* Right: Auth Section - Simplified */}
       {/* 4. Conditionally render Login link OR Welcome + Logout button */}
       <div className="flex items-center space-x-4">
-        {user ? (
           // USER IS LOGGED IN: Display Welcome message and Logout button
           <>
-            <span className="text-gray-700 font-medium">Welcome, {user}!</span>
+            <span className="text-gray-700 font-medium">Welcome, !</span>
             <button
-              onClick={handleLogout}
               className="px-4 py-2 bg-red-600 text-white text-sm font-medium rounded hover:bg-red-700 transition"
             >
               Logout
             </button>
           </>
-        ) : (
           // USER IS LOGGED OUT: Display ONLY Login link/button
           <Link
-            href="/login"
+            href="/"
             className="px-4 py-2 border border-blue-600 text-blue-600 text-sm font-medium rounded hover:bg-blue-50 transition"
           >
             Login
           </Link>
           /* Register button is removed */
-        )}
       </div>
     </header>
   );
