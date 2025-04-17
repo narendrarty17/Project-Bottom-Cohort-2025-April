@@ -28,13 +28,10 @@ export const AuthProvider = ({ children }) => {
  
 
   // Function to log out the user logoutUser - memoized with useCallback
-\
 
   // The value object provided to consuming components
   const value = {
-    user,
-    loginUser,
-    logoutUser,
+    user
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
