@@ -15,7 +15,7 @@ export const useAuth = () => {
   const context = useContext(AuthContext);
   // Runtime check remains useful even without TypeScript
   if (context === undefined) {
-    throw new Error('useAuth must be used within an AuthProvider');
+    throw new Error('useAuth is used with AuthProvider');
   }
   return context;
 };
@@ -25,14 +25,13 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null); // State holds 'Ram' or null
 
   const loginUser = useCallback((username) => {
-    // Set user to 'Ram' if a non-empty username is provided
     if (username) {
       setUser(username);
     } else {
-      console.warn('Auth Context: Attempted to login with empty username');
-      setUser(null); // Keep user null if login fails or username is empty
+      console.warn('login with empty username');
+      setUser(null);
     }
-  }, []); // Empty dependency array means this function reference is stable
+  }, []); 
 
   // Function to log out the user - memoized with useCallback
   const logoutUser = useCallback(() => {
