@@ -1,0 +1,27 @@
+{
+    "marketData": {
+      "topPerformers": [
+        { "name": "RELIANCE", "change": 3.12 },
+        { "name": "HDFCBANK", "change": 2.55 },
+        { "name": "TCS", "change": 2.10 }
+      ],
+      "topLosers": [
+        { "name": "ICICIBANK", "change": -2.89 },
+        { "name": "KOTAKBANK", "change": -2.15 },
+        { "name": "INFY", "change": -1.55 }
+      ],
+      "topMovers": [
+        { "name": "ITC", "change": 0.85 },
+        { "name": "AXISBANK", "change": -1.10 },
+        { "name": "SBIN", "change": 1.25 }
+      ]
+    },
+    "popularStocksData": [
+      { "name": "RELIANCE", "price": 2950.75, "changePercent": 1.55, "description": "Energy, Retail, Telecom conglomerate." },
+      { "name": "TCS", "price": 3890.10, "changePercent": -0.39, "description": "Leading IT services & consulting company." },
+      { "name": "HDFCBANK", "price": 1480.50, "changePercent": 1.57, "description": "Largest private sector bank in India." },
+      { "name": "INFY", "price": 1455.00, "changePercent": 1.28, "description": "Global leader in next-gen digital services." },
+      { "name": "ICICIBANK", "price": 1075.25, "changePercent": -0.91, "description": "Major private sector bank." },
+      { "name": "SBIN", "price": 750.20, "changePercent": 1.15, "description": "Largest public sector bank." }
+    ]
+  }
