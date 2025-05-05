@@ -1,0 +1,11 @@
+{
+    "watchlist": [
+      { "name": "NIFTYBEES", "price": 245.50, "changePercent": 0.85, "description": "Nifty 50 Index ETF." },
+      { "name": "SBIN", "price": 750.20, "changePercent": -1.15, "description": "Largest public sector bank." },
+      { "name": "WIPRO", "price": 485.00, "changePercent": 0.10, "description": "Global IT, consulting & BPO company." }
+    ],
+    "portfolio": [
+      { "name": "RELIANCE", "quantity": 10, "avgPrice": 2800.50, "currentPrice": 2950.75 },
+      { "name": "INFY", "quantity": 15, "avgPrice": 1400.00, "currentPrice": 1455.00 }
+    ]
+}

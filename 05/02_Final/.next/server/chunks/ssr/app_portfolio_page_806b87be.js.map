@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/narendrakumar/Documents/Session_04_Final/app/portfolio/page.js"],"sourcesContent":["// app/portfolio/01_PortfolioPage.js\n'use client'; // Needed because we'll use hooks later\n\nimport React from 'react';\n\nexport default function PortfolioPage() {\n  return (\n    // Add minimal padding using Tailwind\n    <div className=\"p-4\">\n      <h1>Portfolio Page (Skeleton)</h1>\n      <p>This is the basic structure.</p>\n    </div>\n  );\n}"],"names":[],"mappings":"AAAA,oCAAoC;;;;;AAGpC;AAFA,cAAc,uCAAuC;;;AAItC,SAAS;IACtB,OACE,qCAAqC;kBACrC,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
+}

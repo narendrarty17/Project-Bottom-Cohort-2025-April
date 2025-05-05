@@ -1,0 +1,6 @@
+{
+  "/api/portfolio/route": "app/api/portfolio/route.js",
+  "/api/watchlist/route": "app/api/watchlist/route.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/watchlist/page": "app/watchlist/page.js"
+}
