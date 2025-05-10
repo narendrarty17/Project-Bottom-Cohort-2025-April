@@ -1,0 +1,13 @@
+{
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/gemini-stock-predict/route": "app/api/gemini-stock-predict/route.js",
+  "/api/portfolio/route": "app/api/portfolio/route.js",
+  "/api/watchlist/route": "app/api/watchlist/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/register/page": "app/register/page.js",
+  "/stock-prediction/page": "app/stock-prediction/page.js",
+  "/watchlist/page": "app/watchlist/page.js"
+}

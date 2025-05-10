@@ -1,0 +1,3 @@
+{
+  "/api/gemini-stock-predict/route": "app/api/gemini-stock-predict/route.js"
+}
